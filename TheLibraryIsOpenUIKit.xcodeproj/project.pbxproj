@@ -17,6 +17,18 @@
 		D9C74C4927D8172800F68A58 /* TheLibraryIsOpenUIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C4827D8172800F68A58 /* TheLibraryIsOpenUIKitUITests.swift */; };
 		D9C74C4B27D8172800F68A58 /* TheLibraryIsOpenUIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C4A27D8172800F68A58 /* TheLibraryIsOpenUIKitUITestsLaunchTests.swift */; };
 		D9C74C5B27D9944100F68A58 /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C5A27D9944100F68A58 /* HomeFactory.swift */; };
+		D9C74C5D27DAB66700F68A58 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C5C27DAB66700F68A58 /* HomeInteractor.swift */; };
+		D9C74C5F27DAB67000F68A58 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C5E27DAB67000F68A58 /* HomeModels.swift */; };
+		D9C74C6127DAB68200F68A58 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C6027DAB68200F68A58 /* HomePresenter.swift */; };
+		D9C74C6327DAB69000F68A58 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C6227DAB69000F68A58 /* HomeRouter.swift */; };
+		D9C74C6527DAB69800F68A58 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C6427DAB69800F68A58 /* HomeView.swift */; };
+		D9C74C6727DAB6A400F68A58 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C6627DAB6A400F68A58 /* HomeViewController.swift */; };
+		D9C74C6927DAB6C800F68A58 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C6827DAB6C800F68A58 /* HomeWorker.swift */; };
+		D9C74C6C27DABA5400F68A58 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C6B27DABA5400F68A58 /* Podcast.swift */; };
+		D9C74C6E27DABA6A00F68A58 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C6D27DABA6A00F68A58 /* Episode.swift */; };
+		D9C74C7127DABADB00F68A58 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C7027DABADB00F68A58 /* String+Extensions.swift */; };
+		D9C74C7427DAC01200F68A58 /* TLIOViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C7327DAC01200F68A58 /* TLIOViewCode.swift */; };
+		D9C74C7627DAD77D00F68A58 /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C7527DAD77D00F68A58 /* UINavigationController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,18 @@
 		D9C74C4827D8172800F68A58 /* TheLibraryIsOpenUIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLibraryIsOpenUIKitUITests.swift; sourceTree = "<group>"; };
 		D9C74C4A27D8172800F68A58 /* TheLibraryIsOpenUIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLibraryIsOpenUIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D9C74C5A27D9944100F68A58 /* HomeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFactory.swift; sourceTree = "<group>"; };
+		D9C74C5C27DAB66700F68A58 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		D9C74C5E27DAB67000F68A58 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		D9C74C6027DAB68200F68A58 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		D9C74C6227DAB69000F68A58 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		D9C74C6427DAB69800F68A58 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D9C74C6627DAB6A400F68A58 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D9C74C6827DAB6C800F68A58 /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		D9C74C6B27DABA5400F68A58 /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		D9C74C6D27DABA6A00F68A58 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		D9C74C7027DABADB00F68A58 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		D9C74C7327DAC01200F68A58 /* TLIOViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLIOViewCode.swift; sourceTree = "<group>"; };
+		D9C74C7527DAD77D00F68A58 /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +157,10 @@
 		D9C74C5727D993E200F68A58 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D9C74C6A27DABA1D00F68A58 /* Models */,
 				D9C74C5827D993ED00F68A58 /* Scenes */,
+				D9C74C6F27DABABD00F68A58 /* Extensions */,
+				D9C74C7227DABFDF00F68A58 /* Utils */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -150,8 +177,41 @@
 			isa = PBXGroup;
 			children = (
 				D9C74C5A27D9944100F68A58 /* HomeFactory.swift */,
+				D9C74C5C27DAB66700F68A58 /* HomeInteractor.swift */,
+				D9C74C5E27DAB67000F68A58 /* HomeModels.swift */,
+				D9C74C6027DAB68200F68A58 /* HomePresenter.swift */,
+				D9C74C6227DAB69000F68A58 /* HomeRouter.swift */,
+				D9C74C6427DAB69800F68A58 /* HomeView.swift */,
+				D9C74C6627DAB6A400F68A58 /* HomeViewController.swift */,
+				D9C74C6827DAB6C800F68A58 /* HomeWorker.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		D9C74C6A27DABA1D00F68A58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9C74C6B27DABA5400F68A58 /* Podcast.swift */,
+				D9C74C6D27DABA6A00F68A58 /* Episode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9C74C6F27DABABD00F68A58 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9C74C7027DABADB00F68A58 /* String+Extensions.swift */,
+				D9C74C7527DAD77D00F68A58 /* UINavigationController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D9C74C7227DABFDF00F68A58 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D9C74C7327DAC01200F68A58 /* TLIOViewCode.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,10 +345,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C74C6527DAB69800F68A58 /* HomeView.swift in Sources */,
+				D9C74C6927DAB6C800F68A58 /* HomeWorker.swift in Sources */,
+				D9C74C7427DAC01200F68A58 /* TLIOViewCode.swift in Sources */,
+				D9C74C6C27DABA5400F68A58 /* Podcast.swift in Sources */,
+				D9C74C6127DAB68200F68A58 /* HomePresenter.swift in Sources */,
 				D9C74C2C27D8172600F68A58 /* ViewController.swift in Sources */,
 				D9C74C5B27D9944100F68A58 /* HomeFactory.swift in Sources */,
 				D9C74C2827D8172600F68A58 /* AppDelegate.swift in Sources */,
+				D9C74C6E27DABA6A00F68A58 /* Episode.swift in Sources */,
+				D9C74C7127DABADB00F68A58 /* String+Extensions.swift in Sources */,
+				D9C74C6727DAB6A400F68A58 /* HomeViewController.swift in Sources */,
+				D9C74C5D27DAB66700F68A58 /* HomeInteractor.swift in Sources */,
+				D9C74C6327DAB69000F68A58 /* HomeRouter.swift in Sources */,
+				D9C74C5F27DAB67000F68A58 /* HomeModels.swift in Sources */,
 				D9C74C2A27D8172600F68A58 /* SceneDelegate.swift in Sources */,
+				D9C74C7627DAD77D00F68A58 /* UINavigationController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
