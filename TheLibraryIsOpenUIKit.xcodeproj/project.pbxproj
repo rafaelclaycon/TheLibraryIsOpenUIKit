@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D9C74C2827D8172600F68A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C2727D8172600F68A58 /* AppDelegate.swift */; };
 		D9C74C2A27D8172600F68A58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C2927D8172600F68A58 /* SceneDelegate.swift */; };
-		D9C74C2C27D8172600F68A58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C2B27D8172600F68A58 /* ViewController.swift */; };
 		D9C74C3127D8172800F68A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C74C3027D8172800F68A58 /* Assets.xcassets */; };
 		D9C74C3427D8172800F68A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C74C3227D8172800F68A58 /* LaunchScreen.storyboard */; };
 		D9C74C3F27D8172800F68A58 /* TheLibraryIsOpenUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74C3E27D8172800F68A58 /* TheLibraryIsOpenUIKitTests.swift */; };
@@ -51,7 +50,6 @@
 		D9C74C2427D8172600F68A58 /* TheLibraryIsOpenUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheLibraryIsOpenUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C74C2727D8172600F68A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9C74C2927D8172600F68A58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D9C74C2B27D8172600F68A58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9C74C3027D8172800F68A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9C74C3327D8172800F68A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9C74C3527D8172800F68A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,12 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				D9C74C5727D993E200F68A58 /* Sources */,
-				D9C74C2727D8172600F68A58 /* AppDelegate.swift */,
-				D9C74C2927D8172600F68A58 /* SceneDelegate.swift */,
-				D9C74C2B27D8172600F68A58 /* ViewController.swift */,
-				D9C74C3027D8172800F68A58 /* Assets.xcassets */,
-				D9C74C3227D8172800F68A58 /* LaunchScreen.storyboard */,
-				D9C74C3527D8172800F68A58 /* Info.plist */,
+				D9C74C7727DAE4B400F68A58 /* Resources */,
 			);
 			path = TheLibraryIsOpenUIKit;
 			sourceTree = "<group>";
@@ -158,6 +151,7 @@
 				D9C74C5827D993ED00F68A58 /* Scenes */,
 				D9C74C6F27DABABD00F68A58 /* Extensions */,
 				D9C74C7227DABFDF00F68A58 /* Utils */,
+				D9C74C7827DAE4E200F68A58 /* Supporting Files */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -209,6 +203,25 @@
 				D9C74C7327DAC01200F68A58 /* TLIOViewCode.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		D9C74C7727DAE4B400F68A58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9C74C3227D8172800F68A58 /* LaunchScreen.storyboard */,
+				D9C74C3027D8172800F68A58 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D9C74C7827DAE4E200F68A58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9C74C2727D8172600F68A58 /* AppDelegate.swift */,
+				D9C74C2927D8172600F68A58 /* SceneDelegate.swift */,
+				D9C74C3527D8172800F68A58 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,7 +359,6 @@
 				D9C74C7427DAC01200F68A58 /* TLIOViewCode.swift in Sources */,
 				D9C74C6C27DABA5400F68A58 /* Podcast.swift in Sources */,
 				D9C74C6127DAB68200F68A58 /* HomePresenter.swift in Sources */,
-				D9C74C2C27D8172600F68A58 /* ViewController.swift in Sources */,
 				D9C74C5B27D9944100F68A58 /* HomeFactory.swift in Sources */,
 				D9C74C2827D8172600F68A58 /* AppDelegate.swift in Sources */,
 				D9C74C6E27DABA6A00F68A58 /* Episode.swift in Sources */,
@@ -455,6 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "TheLibraryIsOpenUIKit/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -510,6 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "TheLibraryIsOpenUIKit/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
