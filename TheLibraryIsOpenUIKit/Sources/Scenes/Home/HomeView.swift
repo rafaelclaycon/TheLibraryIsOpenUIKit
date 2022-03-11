@@ -25,6 +25,8 @@ final class HomeView: UIView, HomeViewLogic {
     
     private lazy var emptyStateImage: UIImageView = {
         let view = UIImageView()
+        view.image = UIImage(named: "podcastListEmptyState")
+        view.contentMode = .scaleAspectFit
         return view
     }()
     
@@ -41,6 +43,7 @@ final class HomeView: UIView, HomeViewLogic {
         label.numberOfLines = 3
         label.font = label.font.withSize(17)
         label.textColor = .gray
+        label.textAlignment = .center
         return label
     }()
     
@@ -98,23 +101,23 @@ extension HomeView: TLIOViewCode {
             titleLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
             titleLabel.heightAnchor.constraint(equalToConstant: 40),
             
-            emptyStateImage.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
-            emptyStateImage.leadingAnchor.constraint(equalTo: leadingAnchor),
-            emptyStateImage.trailingAnchor.constraint(equalTo: trailingAnchor),
-            emptyStateImage.heightAnchor.constraint(equalToConstant: 40),
+            emptyStateImage.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 20),
+            emptyStateImage.centerXAnchor.constraint(equalTo: safeAreaLayoutGuide.centerXAnchor),
+            emptyStateImage.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 15),
+            emptyStateImage.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -15),
+            emptyStateImage.heightAnchor.constraint(equalToConstant: 200),
             
-            emptyStateTitleLabel.topAnchor.constraint(equalTo: emptyStateImage.bottomAnchor),
+            emptyStateTitleLabel.topAnchor.constraint(equalTo: emptyStateImage.bottomAnchor, constant: 20),
             emptyStateTitleLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
             
-            emptyStateInstructionsLabel.topAnchor.constraint(equalTo: emptyStateTitleLabel.bottomAnchor, constant: 15),
+            emptyStateInstructionsLabel.topAnchor.constraint(equalTo: emptyStateTitleLabel.bottomAnchor, constant: 10),
             emptyStateInstructionsLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
-            emptyStateInstructionsLabel.heightAnchor.constraint(equalToConstant: 40),
-            //emptyStateInstructionsLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 15),
-            //emptyStateInstructionsLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -15),
+            emptyStateInstructionsLabel.heightAnchor.constraint(equalToConstant: 80),
+            emptyStateInstructionsLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 15),
+            emptyStateInstructionsLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -15),
             
             howDoesThisWorkButton.centerXAnchor.constraint(equalTo: centerXAnchor),
             howDoesThisWorkButton.topAnchor.constraint(equalTo: emptyStateInstructionsLabel.bottomAnchor, constant: 25)
-            //howDoesThisWorkButton.heightAnchor.constraint(equalToConstant: 20)
         ])
     }
     
